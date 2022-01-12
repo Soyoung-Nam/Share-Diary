@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+* {
+box-sizing: border-box;
+font-family: 'Noto Sans KR', sans-serif; 
+font-size: 15px;
+   }
+
+/* 본문 스타일링 */
+body {
+/* 화면 스크린 크기  (확인해보기)*/
+/* 기본 설정: 페이지 전체 */
+   margin: 0;
+   padding: 0;
+
+}
+/* 메인클래스 contentbox */
+#contentbox {
+   -ms-flex: 70%; /* IE10 */
+   flex: 70%;
+   background-color: white;
+   padding: 20px;
+   width: 1218px;
+   display: flex;
+   text-align: center;
+   align-items: baseline;
+   
+}
+
+.mainBoardBox1 {
+   padding: 20px;
+   margin-left: 20px;
+   margin-top: 20px;
+   height: auto;
+   width: 600px;
+   background-color: #F8F8FF;
+   list-style-type: none;
+   float:left;
+   margin-right: 100px;   
+}
+
+#OpendiaryBox{
+	text-align:center;
+	font-size: 20px;
+	width:550px; 
+	height:100px; 
+	padding:10px; 
+	margin-top:20px; 
+	border-radius: 0.5em; 
+	background: linear-gradient(to bottom ,#f8f8f8, #E6E6FA, #cec3e4);
+	text-transform: uppercase;
+}
+
+.mainBoardBox {
+   padding: 20px;
+   margin-top: 20px;
+   width: 600px;
+   height: auto;
+   list-style-type: none;
+   float:left;
+   background-color: #F8F8FF;
+   
+}
+
+#boardline{
+	border-bottom: 3px solid #9370DB;
+	width: auto;
+	margin:3px;
+}
+
+#boardline a{
+	font-size:20px;
+}
+
+#ulTable{ /* 박스전체 사이즈 */
+   /* margin-top: 10px; */
+   width: auto;
+   height: auto;
+}
+
+
+li { /* 제목 추천수  보라색 전체*/
+/* width:550px;
+ */}
+
+ul, li{ /* 제목날짜 추천수 개별 */
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   height:60px;
+   width:auto;
+   text-align:center;
+}
+
+#ulTable > li > ul > li:first-child{
+   width: 70%;
+   text-align: left;
+}
+
+#ulTable > li:first-child > ul > li{
+   background-color: #9370DB;
+   font-weight: bold;
+   padding-top: 15px;
+   text-align: center;
+}
+
+#ulTable > li > ul{
+   clear: both;
+   padding-top: 20px;
+   position: relative;
+   min-width: 40px;
+}
+
+#ulTable > li > ul > li{
+   float: left;
+   font-size: 10pt;
+   border-bottom: 1px #9370DB;
+   height: 50px;
+   line-height: 25px;
+}
+
+#ulTable > li > ul > li:first-child +li{
+   width: 18%;
+   padding-top: 15px;
+   text-align: center;
+}
+#ulTable > li > ul > li:first-child +li + li{
+   width: 12%;
+   padding-top: 15px;   
+   text-align: center;
+}
+
+
+#thumb {
+   width: 10px;
+   height: 10px;
+}
+
+.mainBoardBox a {
+   text-decoration: none;
+   color: black;
+}

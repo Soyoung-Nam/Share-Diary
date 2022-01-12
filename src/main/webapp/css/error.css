@@ -1,0 +1,15 @@
+@charset "UTF-8";
+#contentbox{
+	margin: 0 auto;
+}
+#errorbox{
+	margin: 30px;
+	width: 600px;
+	height: 200px;
+	background-color: #e6e6fa;
+	padding: 50px;
+	text-align: center;
+}
+#errorbox h2{
+	color: red;
+}

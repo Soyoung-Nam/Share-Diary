@@ -1,0 +1,59 @@
+@charset "UTF-8"; /* 전체 수정 0813 소영 */
+
+#writebox {
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 800px;
+	height: 700px;
+}
+
+#titlebar {
+	margin: 0 auto;
+	padding: 10px;
+	width: 100%;
+	height: 50px;
+}
+
+#category {
+	margin: 0 auto;
+	padding: 10px;
+	float: left;
+	width: 100px;
+	height: 40px;
+}
+
+#btitle {
+	margin: 0 auto;
+	margin-left: 10px;
+	padding: 10px;
+	float: left;
+	width: 600px;
+	height: 40px;
+}
+
+#bcontent {
+	margin: 10px;
+	padding: 10px;
+	width: 710px;
+	height: 500px;
+}
+
+#selectfile {
+	background-color: white;
+	border: 1px solid #ccc;
+	outline: none;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+button {
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	outline: none;
+	margin-left: 30px;
+	padding: 15px;
+}
+
+button:hover {
+	cursor: pointer;
+}

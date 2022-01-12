@@ -1,0 +1,60 @@
+@charset "UTF-8";
+a:link, a:visited, a:active{ color: dimgray; text-decoration: none; }
+a:hover{ text-decoration: underline; }
+#adminbox{
+	margin: 0 auto;
+	margin: 20px;
+	width: 800px;
+}
+
+table{
+	margin: 0 auto;
+	padding: 0;
+	height: auto;
+	width: 800px;
+	border-collapse: collapse;
+}
+
+th, td{
+	border-bottom: 1px solid #ccc;
+}
+
+th{
+	background-color: #F8F8FF;
+	font-size: 14px;
+	height: 30px;
+	border-bottom: 2px solid #ccc;
+	text-align: center;
+}
+
+td{
+	height: 20px;
+	text-align: center;
+}
+
+tr:hover{
+	background-color: #F8F8FF;
+}
+
+#searchboard{
+	padding: 10px;
+	background-color: #F8F8FF;
+	text-align: center;
+}
+
+#submitBtn{
+	background-color: white;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+#paging{
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 0;
+	text-align: center;
+}
+.th{
+	text-align: center;
+}

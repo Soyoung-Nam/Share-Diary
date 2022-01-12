@@ -1,0 +1,79 @@
+@charset "UTF-8";
+a:link, a:visited, a:active{color: black; text-decoration: none;}
+
+#category{ /* 카테고리 */
+	margin-bottom: 5px;
+}
+
+#searchboard{ /* 제목, 검색 기능 */
+	padding: 10px;
+	background-color: #F8F8FF;
+	text-align: center;
+}
+
+#submitBtn{ /* 0813 소영 */
+	background-color: white;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+#writebtn{ /* 글쓰기 버튼 */ /* 0813 소영 */
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color: white;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+#boardbox{ /* 게시글 테이블 + 페이징 + 글쓰기버튼 포함된 박스 */
+	margin: 0 auto;
+	margin: 20px; /* 추가 */
+	width: 800px; /* 임시로 정했어요 */
+	/* background-color: pink; */ /* 확인용 백그라운드색 */
+}
+table{ /* 게시글 리스트만 테이블 */
+	margin: 0 auto;
+	padding: 0;
+	height: auto;
+	width: 800px; /* 임시로 정했어요 */
+	border-collapse: collapse; /* 글 아래 밑줄 */
+}
+th, td{ /* 테이블에서 헤드와 각 행 아래에 밑줄 추가 */
+	border-bottom: 1px solid #ccc;
+}
+th{ /* 테이블 헤드 배경, 폰트 조정 */
+	background-color: #F8F8FF;
+	font-size: 14px;
+	height: 40px; /* 테이블 헤드 높이 */
+	border-bottom: 2px solid #ccc; /* th 아래 밑줄 */
+	text-align: center;
+}
+td{
+	height: 60px; /* 썸네일 포함 높이 */
+	text-align: center;
+}
+tr:hover{ /* 게시글에 마우스 올렸을때 연보라색 배경 */
+	background-color: #F8F8FF;
+}
+a:hover{ /* 마우스 올렸을때 밑줄 */
+	text-decoration: underline;
+}
+small{ /* 카테고리, 댓글 수 글자 */
+	color: dimgray;
+}
+#thumb{ /* 썸네일 사진 */
+	height: 60px;
+	width: 80px;
+	vertical-align: middle;
+}
+#paging{ /* 페이징, 가운데 정렬과 테이블에서 조금 떨어지게 margin-top 줬어요 */
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 0;
+	text-align: center;
+}
+.th{
+	text-align: center;
+}

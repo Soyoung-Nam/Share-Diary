@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@font-face{
+	font-family:'강부장님체';
+	src: url("fonts/강부장님체.ttf");
+		
+}
+
+@font-face{
+	font-family:'고딕아니고 고딩체';
+	src: url("fonts/고딩.ttf");
+		
+}
+
+@font-face{
+	font-family:'기쁨밝음체';
+	src: url("fonts/기쁨밝음.ttf"); 
+		
+}
